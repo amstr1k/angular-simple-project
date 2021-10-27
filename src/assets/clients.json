@@ -1,0 +1,7 @@
+[
+    {"Id": "1", "OrganizationName": "Yandex", "Inn": "7736207543", "AccountOpeningDate": "1997-09-23", "AccountBalance": "100344"},
+    {"Id": "2", "OrganizationName": "Ланит", "Inn": "7727004113", "AccountOpeningDate": "1993-01-10", "AccountBalance": "97344"},
+    {"Id": "3", "OrganizationName": "Ozon", "Inn": "7743181857", "AccountOpeningDate": " 2006-06-02", "AccountBalance": "85348"},
+    {"Id": "4", "OrganizationName": "Softline", "Inn": "7736227885", "AccountOpeningDate": "1996-09-13", "AccountBalance": "84659"},
+    {"Id": "5", "OrganizationName": "Марвел-Дистрибуция", "Inn": "7718651139", "AccountOpeningDate": "2007-06-21", "AccountBalance": "71234"}
+]

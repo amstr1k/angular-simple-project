@@ -1,0 +1,18 @@
+<p-table [value]="clients">
+  <ng-template pTemplate="header">
+    <tr>
+      <th>Название организации</th>
+      <th>ИНН</th>
+      <th>Дата открытия счета</th>
+      <th>Остаток на счете</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-client>
+    <tr  [pSelectableRow]="client" (click)="handleClick(client)">
+      <td>{{ client.OrganizationName }}</td>
+      <td>{{ client.Inn }}</td>
+      <td>{{ client.AccountOpeningDate | datePipe }}</td>
+      <td>{{ client.AccountBalance | currencyPipe: 2 : accountCurrency : false }}</td>
+    </tr>
+  </ng-template>
+</p-table>
